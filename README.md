@@ -1,4 +1,5 @@
-# IoT–Machine Learning Integration for Mineral Scaling Prediction and Handling in Geothermal Operations: A Data-Driven Approach toward Sustainable Geothermal Development in X Field
+<h1 align="center">IoT–Machine Learning Integration for Mineral Scaling Prediction and Handling in Geothermal Operations: A Data-Driven Approach toward Sustainable Geothermal Development in X Field</h1>
+                                                                                                                                                                                                         
 ![Scale Image](https://www.merusoilandgas.com/wp-content/uploads/2019/04/Scaling.jpg)
 ref: https://www.merusoilandgas.com/wp-content/uploads/2019/04/Scaling.jpg
 

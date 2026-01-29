@@ -1,5 +1,3 @@
-# Scale-Prediction_VORTEX-2026
-
 # IoT–Machine Learning Integration for Mineral Scaling Prediction and Handling in Geothermal Operations: A Data-Driven Approach toward Sustainable Geothermal Development in X Field
 ![Scale Image](https://www.merusoilandgas.com/wp-content/uploads/2019/04/Scaling.jpg)
 ref: https://www.merusoilandgas.com/wp-content/uploads/2019/04/Scaling.jpg
@@ -21,6 +19,9 @@ Nevertheless, geothermal energy retains significant potential as a low-emission,
 - xgboost
 - shap
 - matplotlib
+
+## Data
+The dataset used wer obtain from https://github.com/arashtayyebi/Scale-prediction
 
 ## Reference
 Ahmadi, M., & Chen, Z. (2020). Machine learning–based models for predicting permeability impairment due to scale deposition. Journal of Petroleum Exploration and Production Technology, 10(8), 2873–2884. https://doi.org/10.1007/s13202-020-00941-1

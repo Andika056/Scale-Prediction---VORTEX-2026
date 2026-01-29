@@ -1,45 +1,4 @@
 # Scale-Prediction_VORTEX-2026
-In the energy transition toward Indonesia’s Net Zero Emission target by 2060, 
-geothermal energy plays a strategic role as a reliable baseload energy source supporting national 
-energy security (PT PLN, 2021). Indonesia possesses substantial geothermal potential for both 
-electricity generation and non-electric applications, such as direct heat utilization for industrial 
-processes. However, its development still faces interrelated economic, regulatory, and technical 
-challenges (Prauzek et al., 2023). High exploration and drilling costs reduce investment 
-attractiveness, while regulatory complexity, permitting processes, and land-use issues further 
-affect project feasibility (World Bank, 2019). Technically, upstream geothermal operations 
-consist of exploration, drilling, reservoir development, production injection, and long-term field 
-operation stages. During the exploration phase, the primary challenge arises from geological 
-uncertainty due to geothermal reservoir heterogeneity, which increases exploration risk and 
-cost. Unlike conventional oil and gas systems that are typically located in sedimentary basins 
-with well-defined stratigraphic controls, Indonesia’s geothermal systems are predominantly 
-associated with volcanic arc environments controlled by complex fault structures and extreme 
-temperature gradients (Hochstein & Sudarman, 2008). In the drilling phase, major technical 
-challenges include low rate of penetration (ROP) caused by hard formations, loss of circulation 
-in fractured zones, and lithological uncertainty, making geothermal drilling more focused on 
-geothermal risk management rather than hydrocarbon optimization. During the production and 
-injection phase, mineral scaling and corrosion become dominant issues, leading to production 
-decline and reduced injectivity, which directly impact geothermal recovery factors (Ahmadi & 
-Chen, 2020; Sofyan et al., 2021). Effective mitigation through specialized mechanical methods 
-or chemical inhibition is essential to maintain optimal flow in these harsh environment wells 
-(Sofyan et al., 2025). These challenges are more pronounced than in oil and gas operations 
-because geothermal fluids are multiphase, rich in dissolved minerals, and highly sensitive to 
-thermodynamic changes (Xu et al., 2021). Nevertheless, geothermal energy retains significant 
-potential as a low-emission, domestically sourced baseload energy. Sustainable utilization 
-strongly depends on improving operational efficiency and reducing technical risks through 
-data-driven and digitalized approaches. The Internet of Things (IoT) enables continuous 
-operational data acquisition through digital sensors installed on production and injection 
-pipelines, particularly to monitor geochemical parameters such as pH and key ion 
-concentrations that influence scale formation (Chen et al., 2020; Huaman Rojas et al., 2025). 
-Real-time visualization and sensor monitoring systems provide critical insights into the early 
-stages of scale deposition and its impact on system integrity (Kim et al., 2019). These data are 
-transmitted in real time to Machine Learning (ML)-based analytical systems to predict mineral 
-saturation indices and scaling tendencies before operational disruptions occur (Al Harrasi et al., 
-2025; Al-Hajri et al., 2020; Supekar et al., 2018). ML techniques can reveal complex nonlinear 
-relationships between fluid chemistry and pH, thereby supporting proactive mitigation 
-strategies (Yousefzadeh et al., 2023). This study utilizes a dataset This dataset comprised eight real 
-PW samples collected from the Williston Basin Bakken formation in 
-northwestern North Dakota and northeastern Montana, which were 
-analyzed using PHREEQC and the OLI software. Consisting of 
-2,313 data points, including ionic composition, pH, and mineral saturation indices, to train 
-Gradient Boosting Machine (GBM), Random Forest (RF), Extreme Boosting (XGBoost), and 
-Power Ensemble Learning Model (PLEM).
+In the energy transition toward Indonesia’s Net Zero Emission target by 2060, geothermal energy plays a strategic role as a reliable baseload energy source supporting national energy security (PT PLN, 2021). Indonesia possesses substantial geothermal potential for both electricity generation and non-electric applications, such as direct heat utilization for industrial processes. However, its development still faces interrelated economic, regulatory, and technical challenges (Prauzek et al., 2023). High exploration and drilling costs reduce investment attractiveness, while regulatory complexity, permitting processes, and land-use issues further affect project feasibility (World Bank, 2019). Technically, upstream geothermal operations consist of exploration, drilling, reservoir development, production injection, and long-term field operation stages. During the exploration phase, the primary challenge arises from geological uncertainty due to geothermal reservoir heterogeneity, which increases exploration risk and cost. Unlike conventional oil and gas systems that are typically located in sedimentary basins with well-defined stratigraphic controls, Indonesia’s geothermal systems are predominantly associated with volcanic arc environments controlled by complex fault structures and extreme temperature gradients (Hochstein & Sudarman, 2008). In the drilling phase, major technical challenges include low rate of penetration (ROP) caused by hard formations, loss of circulation in fractured zones, and lithological uncertainty, making geothermal drilling more focused on geothermal risk management rather than hydrocarbon optimization. During the production and injection phase, mineral scaling and corrosion become dominant issues, leading to production decline and reduced injectivity, which directly impact geothermal recovery factors (Ahmadi & Chen, 2020; Sofyan et al., 2021). Effective mitigation through specialized mechanical methods or chemical inhibition is essential to maintain optimal flow in these harsh environment wells (Sofyan et al., 2025). These challenges are more pronounced than in oil and gas operations because geothermal fluids are multiphase, rich in dissolved minerals, and highly sensitive to thermodynamic changes (Xu et al., 2021).
+
+Nevertheless, geothermal energy retains significant potential as a low-emission, domestically sourced baseload energy. Sustainable utilization strongly depends on improving operational efficiency and reducing technical risks through data-driven and digitalized approaches. The Internet of Things (IoT) enables continuous operational data acquisition through digital sensors installed on production and injection pipelines, particularly to monitor geochemical parameters such as pH and key ion concentrations that influence scale formation (Chen et al., 2020; Huaman Rojas et al., 2025). Real-time visualization and sensor monitoring systems provide critical insights into the early stages of scale deposition and its impact on system integrity (Kim et al., 2019). These data are transmitted in real time to Machine Learning (ML)-based analytical systems to predict mineral saturation indices and scaling tendencies before operational disruptions occur (Al Harrasi et al., 2025; Al-Hajri et al., 2020; Supekar et al., 2018). ML techniques canreveal complex nonlinear relationships between fluid chemistry and pH, thereby supporting proactive mitigation strategies (Yousefzadeh et al., 2023). This study utilizes a dataset This dataset comprised eight real PW samples collected from the Williston Basin Bakken formation in northwestern North Dakota and northeastern Montana, which were analyzed using PHREEQC and the OLI software. Consisting of 2,313 data points,including ionic composition, pH, and mineral saturation indices, to train Gradient Boosting Machine (GBM), Random Forest (RF), Extreme Boosting (XGBoost), and Power Ensemble Learning Model (PLEM). And used a hyperparameter tuning.
